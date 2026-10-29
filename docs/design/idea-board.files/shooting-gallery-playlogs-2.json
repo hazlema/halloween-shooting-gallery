@@ -1,0 +1,1282 @@
+[
+  {
+    "runLengthSec": 30.1,
+    "actReached": 1,
+    "shots": 71,
+    "shotsPerSec": 2.36,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 2.36,
+    "accuracy": 0.394,
+    "targetsHit": 38,
+    "wildShots": 43,
+    "avgStreakAtBreak": 2.15,
+    "longestStreak": 8,
+    "reachedStreak5": true,
+    "escapes": 10,
+    "escapesPerMin": 19.95,
+    "batsShotShare": 0.611,
+    "longestSlugChain": 0,
+    "prizesTaken": 1,
+    "cheerLost": {
+      "drain": 30,
+      "wildShots": 85,
+      "escapes": 32
+    },
+    "cheerGained": 47,
+    "input": {
+      "mouse": 71,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T16:02:13.053Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        1,
+        2,
+        3.5
+      ],
+      "actStartsAt": [
+        0,
+        50,
+        100
+      ],
+      "lastActDrainRampPerSec": 0.03,
+      "paybackBase": 1,
+      "paybackPerStreak": 0.1,
+      "paybackCap": 1.5,
+      "wildShotCost": 2,
+      "escapeCost": 4,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "multiplierCap": 10,
+      "prizeBonus": 2500,
+      "spawnsPerSec": [
+        1.3,
+        1.5,
+        1.8
+      ],
+      "minLiveTargets": 3,
+      "speedByAct": [
+        1,
+        1.15,
+        1.35
+      ],
+      "speed": {
+        "ghost": 95,
+        "pumpkin": 135,
+        "bat": 205
+      },
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitForgivenessPx": [
+        7,
+        0,
+        0
+      ],
+      "haloEverySec": 15,
+      "powerupSec": 8,
+      "slugReach": 230,
+      "ghostTrainChain": 4,
+      "buckshotHalfAngleDeg": 13,
+      "buckshotDepth": 170,
+      "moonstruckSlow": 0.35,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "touchHoldMs": 180
+    }
+  },
+  {
+    "runLengthSec": 15.4,
+    "actReached": 1,
+    "shots": 40,
+    "shotsPerSec": 2.6,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 2.6,
+    "accuracy": 0.175,
+    "targetsHit": 7,
+    "wildShots": 33,
+    "avgStreakAtBreak": 1,
+    "longestStreak": 1,
+    "reachedStreak5": false,
+    "escapes": 9,
+    "escapesPerMin": 35.07,
+    "batsShotShare": 0.1,
+    "longestSlugChain": 0,
+    "prizesTaken": 0,
+    "cheerLost": {
+      "drain": 15,
+      "wildShots": 66,
+      "escapes": 26
+    },
+    "cheerGained": 8,
+    "input": {
+      "mouse": 40,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T16:02:54.248Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        1,
+        2,
+        3.5
+      ],
+      "actStartsAt": [
+        0,
+        50,
+        100
+      ],
+      "lastActDrainRampPerSec": 0.03,
+      "paybackBase": 1,
+      "paybackPerStreak": 0.1,
+      "paybackCap": 1.5,
+      "wildShotCost": 2,
+      "escapeCost": 4,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "multiplierCap": 10,
+      "prizeBonus": 2500,
+      "spawnsPerSec": [
+        1.3,
+        1.5,
+        1.8
+      ],
+      "minLiveTargets": 3,
+      "speedByAct": [
+        1,
+        1.15,
+        1.35
+      ],
+      "speed": {
+        "ghost": 95,
+        "pumpkin": 135,
+        "bat": 205
+      },
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitForgivenessPx": [
+        7,
+        0,
+        0
+      ],
+      "haloEverySec": 15,
+      "powerupSec": 8,
+      "slugReach": 230,
+      "ghostTrainChain": 4,
+      "buckshotHalfAngleDeg": 13,
+      "buckshotDepth": 170,
+      "moonstruckSlow": 0.35,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "touchHoldMs": 180
+    }
+  },
+  {
+    "runLengthSec": 33.9,
+    "actReached": 1,
+    "shots": 57,
+    "shotsPerSec": 1.68,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 1.68,
+    "accuracy": 0.491,
+    "targetsHit": 28,
+    "wildShots": 29,
+    "avgStreakAtBreak": 1.9,
+    "longestStreak": 3,
+    "reachedStreak5": false,
+    "escapes": 13,
+    "escapesPerMin": 23.04,
+    "batsShotShare": 0.231,
+    "longestSlugChain": 0,
+    "prizesTaken": 0,
+    "cheerLost": {
+      "drain": 34,
+      "wildShots": 58,
+      "escapes": 41
+    },
+    "cheerGained": 33,
+    "input": {
+      "mouse": 57,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T16:03:13.463Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        1,
+        2,
+        3.5
+      ],
+      "actStartsAt": [
+        0,
+        50,
+        100
+      ],
+      "lastActDrainRampPerSec": 0.03,
+      "paybackBase": 1,
+      "paybackPerStreak": 0.1,
+      "paybackCap": 1.5,
+      "wildShotCost": 2,
+      "escapeCost": 4,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "multiplierCap": 10,
+      "prizeBonus": 2500,
+      "spawnsPerSec": [
+        1.3,
+        1.5,
+        1.8
+      ],
+      "minLiveTargets": 3,
+      "speedByAct": [
+        1,
+        1.15,
+        1.35
+      ],
+      "speed": {
+        "ghost": 95,
+        "pumpkin": 135,
+        "bat": 205
+      },
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitForgivenessPx": [
+        7,
+        0,
+        0
+      ],
+      "haloEverySec": 15,
+      "powerupSec": 8,
+      "slugReach": 230,
+      "ghostTrainChain": 4,
+      "buckshotHalfAngleDeg": 13,
+      "buckshotDepth": 170,
+      "moonstruckSlow": 0.35,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "touchHoldMs": 180
+    }
+  },
+  {
+    "runLengthSec": 32.7,
+    "actReached": 1,
+    "shots": 52,
+    "shotsPerSec": 1.59,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 1.59,
+    "accuracy": 0.442,
+    "targetsHit": 23,
+    "wildShots": 29,
+    "avgStreakAtBreak": 1.57,
+    "longestStreak": 3,
+    "reachedStreak5": false,
+    "escapes": 13,
+    "escapesPerMin": 23.85,
+    "batsShotShare": 0.273,
+    "longestSlugChain": 0,
+    "prizesTaken": 1,
+    "cheerLost": {
+      "drain": 25,
+      "wildShots": 58,
+      "escapes": 44
+    },
+    "cheerGained": 27,
+    "input": {
+      "mouse": 52,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T16:04:09.750Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        1,
+        2,
+        3.5
+      ],
+      "actStartsAt": [
+        0,
+        50,
+        100
+      ],
+      "lastActDrainRampPerSec": 0.03,
+      "paybackBase": 1,
+      "paybackPerStreak": 0.1,
+      "paybackCap": 1.5,
+      "wildShotCost": 2,
+      "escapeCost": 4,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "multiplierCap": 10,
+      "prizeBonus": 2500,
+      "spawnsPerSec": [
+        1.3,
+        1.5,
+        1.8
+      ],
+      "minLiveTargets": 3,
+      "speedByAct": [
+        1,
+        1.15,
+        1.35
+      ],
+      "speed": {
+        "ghost": 95,
+        "pumpkin": 135,
+        "bat": 205
+      },
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitForgivenessPx": [
+        7,
+        0,
+        0
+      ],
+      "haloEverySec": 15,
+      "powerupSec": 8,
+      "slugReach": 230,
+      "ghostTrainChain": 4,
+      "buckshotHalfAngleDeg": 13,
+      "buckshotDepth": 170,
+      "moonstruckSlow": 0.35,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "touchHoldMs": 180
+    }
+  },
+  {
+    "runLengthSec": 21.1,
+    "actReached": 1,
+    "shots": 41,
+    "shotsPerSec": 1.94,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 1.94,
+    "accuracy": 0.293,
+    "targetsHit": 12,
+    "wildShots": 29,
+    "avgStreakAtBreak": 1.25,
+    "longestStreak": 2,
+    "reachedStreak5": false,
+    "escapes": 11,
+    "escapesPerMin": 31.25,
+    "batsShotShare": 0.2,
+    "longestSlugChain": 0,
+    "prizesTaken": 0,
+    "cheerLost": {
+      "drain": 21,
+      "wildShots": 56,
+      "escapes": 36
+    },
+    "cheerGained": 13,
+    "input": {
+      "mouse": 41,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T16:04:46.471Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        1,
+        2,
+        3.5
+      ],
+      "actStartsAt": [
+        0,
+        50,
+        100
+      ],
+      "lastActDrainRampPerSec": 0.03,
+      "paybackBase": 1,
+      "paybackPerStreak": 0.1,
+      "paybackCap": 1.5,
+      "wildShotCost": 2,
+      "escapeCost": 4,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "multiplierCap": 10,
+      "prizeBonus": 2500,
+      "spawnsPerSec": [
+        1.3,
+        1.5,
+        1.8
+      ],
+      "minLiveTargets": 3,
+      "speedByAct": [
+        1,
+        1.15,
+        1.35
+      ],
+      "speed": {
+        "ghost": 95,
+        "pumpkin": 135,
+        "bat": 205
+      },
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitForgivenessPx": [
+        7,
+        0,
+        0
+      ],
+      "haloEverySec": 15,
+      "powerupSec": 8,
+      "slugReach": 230,
+      "ghostTrainChain": 4,
+      "buckshotHalfAngleDeg": 13,
+      "buckshotDepth": 170,
+      "moonstruckSlow": 0.35,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "touchHoldMs": 180
+    }
+  },
+  {
+    "runLengthSec": 58.6,
+    "actReached": 2,
+    "shots": 98,
+    "shotsPerSec": 1.67,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 1.64,
+    "accuracy": 0.531,
+    "targetsHit": 82,
+    "wildShots": 46,
+    "avgStreakAtBreak": 3.64,
+    "longestStreak": 12,
+    "reachedStreak5": true,
+    "escapes": 15,
+    "escapesPerMin": 15.36,
+    "batsShotShare": 0.571,
+    "longestSlugChain": 7,
+    "prizesTaken": 2,
+    "cheerLost": {
+      "drain": 67,
+      "wildShots": 92,
+      "escapes": 52
+    },
+    "cheerGained": 111,
+    "input": {
+      "mouse": 98,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T16:05:10.989Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        1,
+        2,
+        3.5
+      ],
+      "actStartsAt": [
+        0,
+        50,
+        100
+      ],
+      "lastActDrainRampPerSec": 0.03,
+      "paybackBase": 1,
+      "paybackPerStreak": 0.1,
+      "paybackCap": 1.5,
+      "wildShotCost": 2,
+      "escapeCost": 4,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "multiplierCap": 10,
+      "prizeBonus": 2500,
+      "spawnsPerSec": [
+        1.3,
+        1.5,
+        1.8
+      ],
+      "minLiveTargets": 3,
+      "speedByAct": [
+        1,
+        1.15,
+        1.35
+      ],
+      "speed": {
+        "ghost": 95,
+        "pumpkin": 135,
+        "bat": 205
+      },
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitForgivenessPx": [
+        7,
+        0,
+        0
+      ],
+      "haloEverySec": 15,
+      "powerupSec": 8,
+      "slugReach": 230,
+      "ghostTrainChain": 4,
+      "buckshotHalfAngleDeg": 13,
+      "buckshotDepth": 170,
+      "moonstruckSlow": 0.35,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "touchHoldMs": 180
+    }
+  },
+  {
+    "runLengthSec": 59.9,
+    "actReached": 2,
+    "shots": 82,
+    "shotsPerSec": 1.37,
+    "peakShotsInOneSec": 3,
+    "act1ShotsPerSec": 1.28,
+    "accuracy": 0.683,
+    "targetsHit": 66,
+    "wildShots": 26,
+    "avgStreakAtBreak": 4.38,
+    "longestStreak": 31,
+    "reachedStreak5": true,
+    "escapes": 21,
+    "escapesPerMin": 21.02,
+    "batsShotShare": 0.433,
+    "longestSlugChain": 0,
+    "prizesTaken": 2,
+    "cheerLost": {
+      "drain": 62,
+      "wildShots": 52,
+      "escapes": 76
+    },
+    "cheerGained": 90,
+    "input": {
+      "mouse": 82,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T17:51:17.689Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        1,
+        2,
+        3.5
+      ],
+      "actStartsAt": [
+        0,
+        50,
+        100
+      ],
+      "lastActDrainRampPerSec": 0.03,
+      "paybackBase": 1,
+      "paybackPerStreak": 0.1,
+      "paybackCap": 1.5,
+      "wildShotCost": 2,
+      "escapeCost": 4,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "multiplierCap": 10,
+      "prizeBonus": 2500,
+      "spawnsPerSec": [
+        1.3,
+        1.5,
+        1.8
+      ],
+      "minLiveTargets": 3,
+      "speedByAct": [
+        1,
+        1.15,
+        1.35
+      ],
+      "speed": {
+        "ghost": 95,
+        "pumpkin": 135,
+        "bat": 205
+      },
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitForgivenessPx": [
+        7,
+        0,
+        0
+      ],
+      "haloEverySec": 15,
+      "powerupSec": 8,
+      "slugReach": 230,
+      "ghostTrainChain": 4,
+      "buckshotHalfAngleDeg": 13,
+      "buckshotDepth": 170,
+      "moonstruckSlow": 0.35,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "touchHoldMs": 180
+    }
+  },
+  {
+    "runLengthSec": 112.3,
+    "actReached": 3,
+    "shots": 167,
+    "shotsPerSec": 1.49,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 1.2,
+    "accuracy": 0.581,
+    "targetsHit": 97,
+    "extrasFelled": 18,
+    "cheerAtActStart": [
+      95,
+      64
+    ],
+    "wildShots": 70,
+    "avgStreakAtBreak": 3.33,
+    "longestStreak": 10,
+    "reachedStreak5": true,
+    "escapes": 32,
+    "escapesPerMin": 17.09,
+    "batsShotShare": 0.488,
+    "longestSlugChain": 3,
+    "prizesTaken": 3,
+    "cheerLost": {
+      "drain": 172,
+      "wildShots": 118,
+      "escapes": 60
+    },
+    "cheerGained": 250,
+    "input": {
+      "mouse": 167,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T18:52:54.106Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        0.5,
+        0.7,
+        2
+      ],
+      "lastActDrainRampPerSec": 0.12,
+      "actStartsAt": [
+        0,
+        40,
+        80
+      ],
+      "paybackFirst": 2.5,
+      "paybackPerStep": 0.25,
+      "paybackCap": 3.5,
+      "wildShotCostAct1": 1,
+      "wildShotLadder": [
+        1,
+        2,
+        4
+      ],
+      "escapeCost": 2,
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": 100,
+      "prizePointsPerHit": 500,
+      "extraPoints": 150,
+      "extraCheer": 1,
+      "multiplierCap": 10,
+      "spawnsPerSec": [
+        0.9,
+        1,
+        1.1
+      ],
+      "minLiveTargets": [
+        2,
+        3,
+        3
+      ],
+      "speedByAct": [
+        1,
+        1.2,
+        1.45
+      ],
+      "speed": {
+        "ghost": 0.12,
+        "pumpkin": 0.18,
+        "bat": 0.3
+      },
+      "prizeSpeed": 0.12,
+      "spawnWeights": {
+        "ghost": 1,
+        "pumpkin": 1,
+        "bat": 1
+      },
+      "hitMarginFrac": 0.25,
+      "haloEverySec": 25,
+      "powerupSec": 6,
+      "slugReachFrac": 0.2,
+      "ghostTrainChain": 5,
+      "buckshotHalfAngleDeg": 20,
+      "moonstruckSlow": 0.5,
+      "touchOffsetY": 90,
+      "touchDragThresholdPx": 12,
+      "cancelStripSide": "right",
+      "cancelStripWidth": 130
+    }
+  },
+  {
+    "runLengthSec": 116.8,
+    "actReached": 3,
+    "shots": 154,
+    "shotsPerSec": 1.32,
+    "peakShotsInOneSec": 3,
+    "act1ShotsPerSec": 1.12,
+    "accuracy": 0.597,
+    "targetsHit": 92,
+    "extrasFelled": 19,
+    "cheerAtActStart": [
+      100,
+      86
+    ],
+    "wildShots": 62,
+    "avgStreakAtBreak": 3.39,
+    "longestStreak": 8,
+    "reachedStreak5": true,
+    "escapes": 45,
+    "escapesPerMin": 23.12,
+    "batsShotShare": 0.452,
+    "longestSlugChain": 3,
+    "bestSlugBurstFells": 10,
+    "prizesTaken": 4,
+    "prizes": [
+      {
+        "type": "bat",
+        "act": 1,
+        "appearedAt": 25,
+        "outcome": "taken",
+        "multiplier": 6,
+        "takenAt": 27.2
+      },
+      {
+        "type": "ghost",
+        "act": 2,
+        "appearedAt": 50,
+        "outcome": "taken",
+        "multiplier": 2,
+        "takenAt": 51.7
+      },
+      {
+        "type": "pumpkin",
+        "act": 2,
+        "appearedAt": 75,
+        "outcome": "taken",
+        "multiplier": 1,
+        "takenAt": 77.7
+      },
+      {
+        "type": "bat",
+        "act": 3,
+        "appearedAt": 100,
+        "outcome": "taken",
+        "multiplier": 2,
+        "takenAt": 103.2
+      }
+    ],
+    "bursts": [
+      {
+        "type": "bat",
+        "act": 1,
+        "t": 27.2,
+        "fells": 5,
+        "extras": 0,
+        "longestChain": 0
+      },
+      {
+        "type": "ghost",
+        "act": 2,
+        "t": 51.7,
+        "fells": 10,
+        "extras": 5,
+        "longestChain": 3
+      },
+      {
+        "type": "pumpkin",
+        "act": 2,
+        "t": 77.7,
+        "fells": 16,
+        "extras": 14,
+        "longestChain": 0
+      },
+      {
+        "type": "bat",
+        "act": 3,
+        "t": 103.2,
+        "fells": 7,
+        "extras": 0,
+        "longestChain": 0
+      }
+    ],
+    "streakReached": {
+      "1": 8,
+      "2": 23,
+      "3": 20,
+      "4": 15,
+      "5": 12,
+      "6": 9,
+      "7": 4,
+      "8": 1
+    },
+    "streakAtEachBreak": [
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      2,
+      2,
+      6,
+      5,
+      5,
+      3,
+      7,
+      6,
+      4,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      2,
+      4,
+      3,
+      7,
+      6,
+      3,
+      1,
+      2,
+      1,
+      6,
+      5,
+      3,
+      3,
+      6,
+      3,
+      1,
+      3,
+      1,
+      8,
+      4,
+      7,
+      3,
+      2
+    ],
+    "escapesByType": {
+      "ghost": 0,
+      "pumpkin": 11,
+      "bat": 34
+    },
+    "batShareOfEscapes": 0.756,
+    "accuracyByInput": {
+      "mouse": 0.597,
+      "tap": null,
+      "drag": null
+    },
+    "crosshairClamped": 0,
+    "parade": {
+      "ghost": true,
+      "pumpkin": false,
+      "bat": true
+    },
+    "cheerLost": {
+      "drain": 169,
+      "wildShots": 114,
+      "escapes": 18
+    },
+    "cheerGained": 201,
+    "input": {
+      "mouse": 154,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T19:34:33.115Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        0.5,
+        0.7,
+        2
+      ],
+      "lastActDrainRampPerSec": 0.12,
+      "actStartsAt": [
+        0,
+        40,
+        80
+      ],
+      "paybackFirst": 2.5,
+      "paybackPerStep": 0.25,
+      "paybackCap": 3.5,
+      "wildShotCostAct1": 1,
+      "wildShotLadder": [
+        1,
+        2,
+        4
+      ],
+      "escapeCost": {
+        "ghost": 2,
+        "pumpkin": 2,
+        "bat": 0
+      },
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": {
+        "ghost": 100,
+        "pumpkin": 100,
+        "bat": 250
+      },
+      "prizePointsPerHit": 500,
+      "extraPoints": 150,
+      "extraCheer": 1,
+      "multiplierCap": 10,
+      "spawnsPerSec": [
+        0.9,
+        1,
+        1.1
+      ],
+      "minLiveTargets": [
+        2,
+        3,
+        3
+      ],
+      "speedByAct": [
+        1,
+        1.2,
+        1.45
+      ],
+      "speed": {
+        "ghost": 0.12,
+        "pumpkin": 0.18,
+        "bat": 0.3
+      },
+      "prizeSpeed": 0.12,
+      "spawnMix": {
+        "bat": 0.4,
+        "ghost": 0.3,
+        "pumpkin": 0.3
+      },
+      "maxSameTypeInARow": 2,
+      "hitMarginFrac": 0.25,
+      "haloGridSec": 25,
+      "powerupSec": 6,
+      "slugReachFrac": 0.2,
+      "buckshotHalfAngleDeg": 20,
+      "moonstruckSlow": 0.5,
+      "hotStreakAt": 10,
+      "paradeMinMult": 2,
+      "ghostTrainFells": 8,
+      "lastActIndex": 2,
+      "touchDragThresholdCss": 10,
+      "touchOffsetCss": 48,
+      "lowerAimAreaCss": 48,
+      "cancelStripCss": 44
+    }
+  },
+  {
+    "runLengthSec": 116,
+    "actReached": 3,
+    "shots": 150,
+    "shotsPerSec": 1.29,
+    "peakShotsInOneSec": 4,
+    "act1ShotsPerSec": 1.1,
+    "accuracy": 0.593,
+    "targetsHit": 89,
+    "extrasFelled": 20,
+    "cheerAtActStart": [
+      93,
+      97
+    ],
+    "wildShots": 61,
+    "avgStreakAtBreak": 3.3,
+    "longestStreak": 9,
+    "reachedStreak5": true,
+    "escapes": 45,
+    "escapesPerMin": 23.28,
+    "batsShotShare": 0.509,
+    "longestSlugChain": 3,
+    "bestSlugBurstFells": 11,
+    "prizesTaken": 4,
+    "prizes": [
+      {
+        "type": "bat",
+        "act": 1,
+        "appearedAt": 25,
+        "outcome": "taken",
+        "multiplier": 3,
+        "takenAt": 26.4
+      },
+      {
+        "type": "ghost",
+        "act": 2,
+        "appearedAt": 50,
+        "outcome": "taken",
+        "multiplier": 8,
+        "takenAt": 51.4
+      },
+      {
+        "type": "pumpkin",
+        "act": 2,
+        "appearedAt": 75,
+        "outcome": "taken",
+        "multiplier": 5,
+        "takenAt": 76.7
+      },
+      {
+        "type": "ghost",
+        "act": 3,
+        "appearedAt": 100,
+        "outcome": "taken",
+        "multiplier": 2,
+        "takenAt": 101.4
+      }
+    ],
+    "bursts": [
+      {
+        "type": "bat",
+        "act": 1,
+        "t": 26.4,
+        "fells": 7,
+        "extras": 0,
+        "longestChain": 0
+      },
+      {
+        "type": "ghost",
+        "act": 2,
+        "t": 51.4,
+        "fells": 11,
+        "extras": 6,
+        "longestChain": 3
+      },
+      {
+        "type": "pumpkin",
+        "act": 2,
+        "t": 76.7,
+        "fells": 12,
+        "extras": 9,
+        "longestChain": 0
+      },
+      {
+        "type": "ghost",
+        "act": 3,
+        "t": 101.4,
+        "fells": 11,
+        "extras": 5,
+        "longestChain": 3
+      }
+    ],
+    "streakReached": {
+      "1": 11,
+      "2": 20,
+      "3": 19,
+      "4": 12,
+      "5": 14,
+      "6": 6,
+      "7": 3,
+      "8": 3,
+      "9": 1
+    },
+    "streakAtEachBreak": [
+      3,
+      1,
+      5,
+      3,
+      2,
+      1,
+      3,
+      8,
+      5,
+      2,
+      1,
+      1,
+      1,
+      9,
+      5,
+      3,
+      3,
+      1,
+      5,
+      6,
+      6,
+      3,
+      1,
+      2,
+      5,
+      2,
+      2,
+      2,
+      1,
+      3,
+      1,
+      4,
+      8,
+      6,
+      3,
+      5,
+      2,
+      5,
+      2,
+      3,
+      2,
+      3,
+      1,
+      5
+    ],
+    "escapesByType": {
+      "ghost": 3,
+      "pumpkin": 14,
+      "bat": 28
+    },
+    "batShareOfEscapes": 0.622,
+    "accuracyByInput": {
+      "mouse": 0.593,
+      "tap": null,
+      "drag": null
+    },
+    "crosshairClamped": 0,
+    "parade": {
+      "ghost": true,
+      "pumpkin": true,
+      "bat": true
+    },
+    "cheerLost": {
+      "drain": 195,
+      "wildShots": 94,
+      "escapes": 30
+    },
+    "cheerGained": 219,
+    "input": {
+      "mouse": 150,
+      "tap": 0,
+      "drag": 0,
+      "cancelled": 0
+    },
+    "startedAt": "2026-10-28T19:37:44.721Z",
+    "tuning": {
+      "cheerStart": 100,
+      "cheerMax": 100,
+      "drainPerSec": [
+        0.5,
+        0.7,
+        2
+      ],
+      "lastActDrainRampPerSec": 0.12,
+      "actStartsAt": [
+        0,
+        40,
+        80
+      ],
+      "paybackFirst": 2.5,
+      "paybackPerStep": 0.25,
+      "paybackCap": 3.5,
+      "wildShotCostAct1": 1,
+      "wildShotLadder": [
+        1,
+        2,
+        4
+      ],
+      "escapeCost": {
+        "ghost": 2,
+        "pumpkin": 2,
+        "bat": 0
+      },
+      "freeEscapes": 2,
+      "lowCheerWarn": 25,
+      "pointsPerHit": {
+        "ghost": 100,
+        "pumpkin": 100,
+        "bat": 250
+      },
+      "prizePointsPerHit": 500,
+      "extraPoints": 150,
+      "extraCheer": 1,
+      "multiplierCap": 10,
+      "spawnsPerSec": [
+        0.9,
+        1,
+        1.1
+      ],
+      "minLiveTargets": [
+        2,
+        3,
+        3
+      ],
+      "speedByAct": [
+        1,
+        1.2,
+        1.45
+      ],
+      "speed": {
+        "ghost": 0.12,
+        "pumpkin": 0.18,
+        "bat": 0.3
+      },
+      "prizeSpeed": 0.12,
+      "spawnMix": {
+        "bat": 0.4,
+        "ghost": 0.3,
+        "pumpkin": 0.3
+      },
+      "maxSameTypeInARow": 2,
+      "hitMarginFrac": 0.25,
+      "haloGridSec": 25,
+      "powerupSec": 6,
+      "slugReachFrac": 0.2,
+      "buckshotHalfAngleDeg": 20,
+      "moonstruckSlow": 0.5,
+      "hotStreakAt": 10,
+      "paradeMinMult": 2,
+      "ghostTrainFells": 8,
+      "lastActIndex": 2,
+      "touchDragThresholdCss": 10,
+      "touchOffsetCss": 48,
+      "lowerAimAreaCss": 48,
+      "cancelStripCss": 44
+    }
+  }
+]

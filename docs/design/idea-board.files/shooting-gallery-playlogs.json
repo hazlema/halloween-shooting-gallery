@@ -1,0 +1,106 @@
+{
+  "runLengthSec": 112.3,
+  "actReached": 3,
+  "shots": 167,
+  "shotsPerSec": 1.49,
+  "peakShotsInOneSec": 4,
+  "act1ShotsPerSec": 1.2,
+  "accuracy": 0.581,
+  "targetsHit": 97,
+  "extrasFelled": 18,
+  "cheerAtActStart": [
+    95,
+    64
+  ],
+  "wildShots": 70,
+  "avgStreakAtBreak": 3.33,
+  "longestStreak": 10,
+  "reachedStreak5": true,
+  "escapes": 32,
+  "escapesPerMin": 17.09,
+  "batsShotShare": 0.488,
+  "longestSlugChain": 3,
+  "prizesTaken": 3,
+  "cheerLost": {
+    "drain": 172,
+    "wildShots": 118,
+    "escapes": 60
+  },
+  "cheerGained": 250,
+  "input": {
+    "mouse": 167,
+    "tap": 0,
+    "drag": 0,
+    "cancelled": 0
+  },
+  "startedAt": "2026-10-28T18:52:54.106Z",
+  "tuning": {
+    "cheerStart": 100,
+    "cheerMax": 100,
+    "drainPerSec": [
+      0.5,
+      0.7,
+      2
+    ],
+    "lastActDrainRampPerSec": 0.12,
+    "actStartsAt": [
+      0,
+      40,
+      80
+    ],
+    "paybackFirst": 2.5,
+    "paybackPerStep": 0.25,
+    "paybackCap": 3.5,
+    "wildShotCostAct1": 1,
+    "wildShotLadder": [
+      1,
+      2,
+      4
+    ],
+    "escapeCost": 2,
+    "freeEscapes": 2,
+    "lowCheerWarn": 25,
+    "pointsPerHit": 100,
+    "prizePointsPerHit": 500,
+    "extraPoints": 150,
+    "extraCheer": 1,
+    "multiplierCap": 10,
+    "spawnsPerSec": [
+      0.9,
+      1,
+      1.1
+    ],
+    "minLiveTargets": [
+      2,
+      3,
+      3
+    ],
+    "speedByAct": [
+      1,
+      1.2,
+      1.45
+    ],
+    "speed": {
+      "ghost": 0.12,
+      "pumpkin": 0.18,
+      "bat": 0.3
+    },
+    "prizeSpeed": 0.12,
+    "spawnWeights": {
+      "ghost": 1,
+      "pumpkin": 1,
+      "bat": 1
+    },
+    "hitMarginFrac": 0.25,
+    "haloEverySec": 25,
+    "powerupSec": 6,
+    "slugReachFrac": 0.2,
+    "ghostTrainChain": 5,
+    "buckshotHalfAngleDeg": 20,
+    "moonstruckSlow": 0.5,
+    "touchOffsetY": 90,
+    "touchDragThresholdPx": 12,
+    "cancelStripSide": "right",
+    "cancelStripWidth": 130
+  }
+}

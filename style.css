@@ -180,11 +180,11 @@ button, .level-opt, .log-link, .round-btn, .wood-btn, .start-slot { cursor: var(
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
   grid-template-areas: "marquee marquee" "start start" "levels levels" "best best" "howto stamps";
   column-gap: 28px; row-gap: 10px;
-  padding: max(16px, 2.2vh) clamp(56px, 7vw, 120px) clamp(36px, 6vh, 70px);
+  padding: max(16px, calc(2.2 * var(--tvh, 1vh))) clamp(56px, calc(7 * var(--tvw, 1vw)), 120px) clamp(36px, calc(6 * var(--tvh, 1vh)), 70px);
 }
-.marquee-slot { grid-area: marquee; margin: 0; width: min(520px, 60vw, 54vh); aspect-ratio: 2.3; }
+.marquee-slot { grid-area: marquee; margin: 0; width: min(520px, calc(60 * var(--tvw, 1vw)), calc(54 * var(--tvh, 1vh))); aspect-ratio: 2.3; }
 .start-slot {
-  grid-area: start; width: min(340px, 50vw, 36vh); aspect-ratio: 2.35; margin-top: 2px;
+  grid-area: start; width: min(340px, calc(50 * var(--tvw, 1vw)), calc(36 * var(--tvh, 1vh))); aspect-ratio: 2.35; margin-top: 2px;
   border: 0; background: transparent; border-radius: 24px;
 }
 .levels {

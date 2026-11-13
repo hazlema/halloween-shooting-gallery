@@ -1216,6 +1216,51 @@
     $('hud').hidden = name !== 'game';
     $('pause').hidden = true;
     document.body.classList.remove('in-game');
+    fitScreens();
+  }
+
+  // Menu screens have a natural pixel size. In short viewports (an itch.io
+  // embed, a landscape phone) scale them down to fit rather than scroll.
+  // A transform (not `zoom`) keeps getBoundingClientRect, which the title
+  // canvas art is positioned from, in true screen coordinates.
+  function fitScreens() { fitTitle(); fitResults(); }
+
+  function fitTitle() {
+    const g = document.querySelector('.title-grid'), t = $('title');
+    // The scaled grid lays out as if the viewport were (W/s x H/s), so its
+    // vw/vh-based sizes read --tvw/--tvh (see style.css) instead of real units.
+    const unset = () => {
+      Object.assign(g.style, { transform: '', transformOrigin: '', width: '', minHeight: '' });
+      g.style.removeProperty('--tvw'); g.style.removeProperty('--tvh');
+      t.style.overflow = '';
+    };
+    unset();
+    titleRects = null;
+    if (t.hidden || W < H) return; // portrait keeps its scrolling layout
+    let s = 1;
+    for (let i = 0; i < 8; i++) {
+      g.style.width = `${W / s}px`; g.style.minHeight = '0px';
+      g.style.setProperty('--tvw', `${W / s / 100}px`); g.style.setProperty('--tvh', `${H / s / 100}px`);
+      const h = g.offsetHeight;
+      if (h * s <= H + 0.5) break;
+      s = Math.max(0.5, Math.min(s, H / h));
+    }
+    if (s >= 1) { unset(); return; }
+    Object.assign(g.style, { width: `${W / s}px`, minHeight: `${H / s}px`, transformOrigin: '0 0', transform: `scale(${s})` });
+    // The unscaled layout box still counts as scrollable overflow; it all fits now.
+    t.style.overflow = 'hidden'; t.scrollTop = 0; t.scrollLeft = 0;
+  }
+
+  function fitResults() {
+    const b = $('resultsBoard'), r = $('results');
+    Object.assign(b.style, { transform: '', transformOrigin: '', margin: '' });
+    r.style.overflow = '';
+    if (r.hidden) return;
+    const h = b.offsetHeight, room = H - 36; // #results has 18px vertical padding
+    if (h <= room) return;
+    const s = Math.max(0.5, room / h);
+    Object.assign(b.style, { transformOrigin: 'top center', transform: `scale(${s})`, margin: `0 auto ${-h * (1 - s)}px` });
+    if (s > 0.5) { r.style.overflow = 'hidden'; r.scrollTop = 0; }
   }
 
   function goTitle() {
@@ -1223,8 +1268,8 @@
     showScreen('title');
     renderLevels();
     renderTitleStamps();
-    titleRects = null;
     setMuteIcons();
+    fitScreens(); // after the stamps render, since they set the title's height
   }
 
   function startShow() {
@@ -1373,7 +1418,7 @@
   // The show pauses when the tab loses focus; resuming is manual.
   document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
   window.addEventListener('blur', pause);
-  window.addEventListener('resize', () => { resize(); if (screen === 'title') titleRects = null; });
+  window.addEventListener('resize', () => { resize(); fitScreens(); });
 
   // -------------------------------------------------------------------- loop --
   let last = performance.now();
@@ -1406,7 +1451,7 @@
 
   resize();
   setMuteIcons();
-  document.fonts.ready.then(() => { buildLayers(); });
+  document.fonts.ready.then(() => { buildLayers(); fitScreens(); });
   goTitle();
   requestAnimationFrame(frame);
 })();
